@@ -11,7 +11,7 @@ header a {
 header {
   background: rgb(147,0,191);
   padding: 15px 15px 0px 15px;
-  background: linear-gradient(180deg, rgba(147,0,191,1) 100%, rgba(0,86,191,1) 30%);
+  background: linear-gradient(180deg, rgba(147,0,191,1) 70%, rgba(0,86,191,1) 100%);
 }
 
 header h1 {
