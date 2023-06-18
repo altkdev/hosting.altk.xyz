@@ -1,9 +1,7 @@
 body {
-  background: #0056bf;
+  background: rgba(0,86,191,1);
   font-family: arial;
   margin: 0;
-  background: rgb(147,0,191);
-  background: linear-gradient(180deg, rgba(147,0,191,1) 35%, rgba(0,86,191,1) 100%);
 }
 
 header a {
@@ -11,7 +9,8 @@ header a {
 }
 
 header {
-  background: #9300bf;
+  background: rgb(147,0,191);
+  background: linear-gradient(180deg, rgba(147,0,191,1) 35%, rgba(0,86,191,1) 100%);
   padding: 15px 15px 0px 15px;
 }
 
@@ -20,6 +19,8 @@ header h1 {
   display: inline;
 }
 
+header h2 {
+  padding: 5px 15px 0px 15px
 
 nav ul {
   margin: 0;
@@ -35,11 +36,11 @@ nav ul li {
 }
 
 p {
-  padding: 5px 15px;
+  padding: 0px 15px;
 }
 
 h3 {
-  padding: 5px 15px;
+  padding: 0px 15px;
 }
 
 h2 {
