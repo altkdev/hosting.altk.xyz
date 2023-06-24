@@ -1,4 +1,4 @@
-class BrL extends HTMLElement {
+class brL extends HTMLElement {
     connectedCallback() {
         const height = this.getAttribute('height') || '1px';
         const borderHeight = `calc(${height} * 3 / 5)`;
