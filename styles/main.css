@@ -2,7 +2,7 @@ body {
   background: rgba(0, 255, 251,1);
   font-family: arial;
   margin: 0;
-  background: linear-gradient(180deg, rgba(255, 0, 238,1) 5%, rgba(0, 255, 251,1) 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 238,1) 7%, rgba(0, 255, 251,1) 100%);
 }
 
 header a {
