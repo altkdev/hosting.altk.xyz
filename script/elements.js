@@ -6,8 +6,7 @@ class brL extends HTMLElement {
         this.style.height = height;
         this.style.margin = '0';
         this.style.padding = '0';
-        this.style.borderTop = `${borderHeight} solid #dadcdc`;
-        this.style.borderBottom = 'none';
+        this.style.borderBottom = `${borderHeight} solid #dadcdc`;
     }
     static get observedAttributes() {
         return ['height'];
