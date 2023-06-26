@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../assets/minecraftfont.woff);
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url(https://hosting.altk.xyz/styles/Lexend-SemiBold.ttf);
+}
+  
+body {
+  background-image: url("https://drive.google.com/file/d/1FtDFRqkJ1aseeHafnY5ws5iUQ02NiCi8/view");
+  background-color: #1c4b94;
+  text-align: center:
+  font-family: 'Lexend';
+}
+
+h1 {
+  font-family: 'Minecraft';
+}
