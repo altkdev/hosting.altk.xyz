@@ -4,14 +4,14 @@
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: 'Sansation';
   src: url(https://hosting.altk.xyz/styles/Sansation-Regular-webfont.woff);
 }
   
 body {
   background-image: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81qkcUfTS1yfotCGB9qUC_duQ31WjErsZtearhkgiNY73Ey_POHzu-qc9_-UHkc6Jv0EdN3K7jcatq_QqxUbkzTBeGC2jA=w2160-h1470);
   background-color: #1c4b94;
-  font-family: 'Lexend';
+  font-family: 'Sansation';
   text-align: center;
 }
 
