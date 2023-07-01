@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>ALTk Hosting-Selection</title>
-  <script src="script/elements.js"></script>
-</head>
-<body>
-  <h1>ALTk Hosting</h1>
-  <form>
-    <h2>Full Build</h2>
-    <label>
-      <input type="checkbox" name="services[]" value="code-writing">
-      Full Build<br>
-      Starting at 9.99<br> 
-      Includes 100 lines of code, price per line after 100: 0.10/line 
-    </label>
+  <head>
+    <meta charset="UTF-8">
+    <title>ALTk Hosting-Selection</title>
+    <link href="styles/main.css" rel="stylesheet"/>
+    <script src="script/elements.js"></script>
+  </head>
+  <body>
+
+    <header> 
+      <h1>ALTk Hosting</h1>
+      <h2>Hosting Made Easy</h2>
+      <nav>
+        <ul>
+          <li> About </li>
+          <li> <a href="index.html"> Selection </a> </li>
+        </ul>
+      </nav>
+    </header>
+
+    <br-l height="5px"></br-l>
+  
+    <form>
+      <h2>Full Build</h2>
+      <label>
+        <input type="checkbox" name="services[]" value="code-writing">
+        Full Build<br>
+        Starting at 9.99<br> 
+        Includes 100 lines of code, price per line after 100: 0.10/line 
+      </label>
     
-    <h2>Subdomain</h2>
-    <label>
-      <input type="checkbox" name="services[]" value="subdomain">
-      Subdomain<br>
-      Setup 7.49 (One-Time)<br> 
-      Operating 2.99/month
-    </label>
+      <h2>Subdomain</h2>
+      <label>
+        <input type="checkbox" name="services[]" value="subdomain">
+        Subdomain<br>
+        Setup 7.49 (One-Time)<br> 
+        Operating 2.99/month
+      </label>
     
-    <h2>Custom Domain (DNS management) with Email Hosting</h2>
-    <label>
-      <input type="checkbox" name="services[]" value="custom-domain">
-      Custom Domain (DNS management) with Email Hosting<br>
-      Registration of Domain 14.99/year<br> 
-      DNS Management 2.99/month<br> 
-      5 email accounts included, additional emails 4.99/month
-    </label>
+      <h2>Custom Domain (DNS management) with Email Hosting</h2>
+      <label>
+        <input type="checkbox" name="services[]" value="custom-domain">
+        Custom Domain (DNS management) with Email Hosting<br>
+        Registration of Domain 14.99/year<br> 
+        DNS Management 2.99/month<br> 
+        5 email accounts included, additional emails 4.99/month
+      </label>
     
-    <h2>Hosting</h2>
-    <label>
-      <input type="checkbox" name="services[]" value="hosting">
-      Hosting - 1.99/month
-    </label>
+      <h2>Hosting</h2>
+      <label>
+        <input type="checkbox" name="services[]" value="hosting">
+        Hosting - 1.99/month
+      </label>
     
-    <h2>Custom URL</h2>
-    <label>
-      <input type="checkbox" name="services[]" value="custom-url">
-      Custom URL<br>
-      Setup 4.99 (One-Time)<br> 
-      Operating 1.99/month<br> 
-      Unlimited URLs free with subdomain and Full Build
-    </label>
+      <h2>Custom URL</h2>
+      <label>
+        <input type="checkbox" name="services[]" value="custom-url">
+        Custom URL<br>
+        Setup 4.99 (One-Time)<br> 
+        Operating 1.99/month<br> 
+        Unlimited URLs free with subdomain and Full Build
+      </label>
     
-    <br><br>
-    <input type="submit" value="Get Quote">
-  </form>
+      <br><br>
+      <input type="submit" value="Get Quote">
+    </form>
 </body>
+  
 </html>
 
