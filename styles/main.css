@@ -48,9 +48,18 @@ h2 {
   padding: 10px 0px 15px 15px;
 }
 
+form {
+  padding: 10px 0px 15px 15px;
+}
+
+.submit {
+  padding: 10px 20px 0px 0px
+
 footer {
   position: absolute;
   clear: both;
   bottom: 100%;
   margin: 1px;
 }
+
+
