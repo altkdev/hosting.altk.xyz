@@ -56,6 +56,9 @@ form {
   padding: 10px 20px 0px 0px
 
 footer {
+  padding: 20px;
+  backgroud: rgba(0, 255, 251,1);
+  text-align: center;
   position: absolute;
   clear: both;
   bottom: 100%;
