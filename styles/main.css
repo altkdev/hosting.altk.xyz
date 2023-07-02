@@ -56,14 +56,20 @@ form {
   padding: 10px 20px 0px 0px;
 
 footer {
-  padding: 20px !important;
-  background-color: rgba(0, 255, 251, 1) !important;
-  position: absolute !important;
-  clear: both !important;
-  bottom: 100% !important;
-  margin: 15px !important;
+  position: relative;
+  width: 100%;
+  background: #00fffb;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 footer p {
-  text-align: center !important;
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
 }
