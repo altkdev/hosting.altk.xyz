@@ -1,8 +1,21 @@
-body {
-  background: rgba(0, 255, 251,1);
-  font-family: arial;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
   margin: 0;
-  background: linear-gradient(180deg, rgba(255, 0, 238,1) 10%, rgba(0, 255, 251,1) 100%);
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgba(0, 255, 251, 1);
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(180deg, rgba(255, 0, 238, 1) 10%, rgba(0, 255, 251, 1) 100%);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
 }
 
 header a {
@@ -54,6 +67,7 @@ form {
 
 .submit {
   padding: 10px 20px 0px 0px;
+}
 
 .footer {
   position: relative;
@@ -89,6 +103,7 @@ form {
   display: inline-block;
   transition: 0.5s;
 }
+
 .social-icon__link:hover {
   transform: translateY(-10px);
 }
