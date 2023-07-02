@@ -57,10 +57,13 @@ form {
 
 footer {
   padding: 20px !important;
-  background: rgba(0, 255, 251, 1) !important;
-  text-align: center !important;
+  background-color: rgba(0, 255, 251, 1) !important;
   position: absolute !important;
   clear: both !important;
   bottom: 100% !important;
   margin: 15px !important;
+}
+
+footer p {
+  text-align: center !important;
 }
