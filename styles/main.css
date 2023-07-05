@@ -71,7 +71,10 @@ input[type=submit]:hover {
   color: #00fffb;
 }
 
-input[type=checkbox{
+input[type=checkbox]{
+}
+
+input[type=checkbox]:checked:active{
   
 }
 
