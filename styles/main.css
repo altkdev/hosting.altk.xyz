@@ -61,7 +61,7 @@ form {
 input[type=submit] {
   padding: 10px 20px;
   background-color: #00fffb;
-  color: black;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   border-radius: 8px;
   text-align: center;
