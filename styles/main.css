@@ -44,7 +44,8 @@ nav ul li {
 }
 
 .current {
-  color: #5e5e5e;
+  background-color: transparent;
+  text-color: #5e5e5e;
 }
 
 p {
