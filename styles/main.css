@@ -174,7 +174,7 @@ font-size:0.8em;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #0240ab;
+  background-color: #4046ff;
 }
 
 .container input:checked ~ .checkmark {
