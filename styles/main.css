@@ -61,7 +61,7 @@ form {
 input[type=submit] {
   padding: 10px 20px 0px 0px;
   background-color: #00fffb;
-  color: rgba(255, 0, 238, 1);
+  color: black;
   font-family: "Poppins", sans-serif;
   border-radius: 8px;
   text-align: center;
@@ -71,7 +71,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #00b3d6;
+  background-color: #0008ff;
   color: white;
 }
 
