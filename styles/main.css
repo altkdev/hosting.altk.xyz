@@ -67,15 +67,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #00fffb;
-  color: #00fffb;
-}
-
-input[type=checkbox]{
-}
-
-input[type=checkbox]:checked:active{
-  
+  background-color: #00b3d6;
+  color: #9b02c9;
 }
 
 .footer{
@@ -172,15 +165,15 @@ font-size:0.8em;
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #00fffb;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #00b3d6;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #9b02c9;
 }
 
 .checkmark:after {
