@@ -71,7 +71,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #0008ff;
+  background-color: #4046ff;
   color: white;
 }
 
@@ -174,7 +174,7 @@ font-size:0.8em;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #00b3d6;
+  background-color: #0240ab;
 }
 
 .container input:checked ~ .checkmark {
