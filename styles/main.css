@@ -82,8 +82,9 @@ input[type=submit]:hover {
 }
 
 .footer{
+bottom: 100%;
 background:#00fffb;
-padding:30px 0px;
+padding:0px 30px;
 font-family: 'Play', sans-serif;
 text-align:center;
 }
