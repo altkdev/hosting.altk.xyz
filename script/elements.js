@@ -7,7 +7,7 @@ class brL extends HTMLElement {
         this.style.margin = '0';
         this.style.padding = '0';
         if (!this.hasAttribute("invis")) {
-            this.style.borderBottom = `${borderHeight} solid #6f0be0`;
+            this.style.border = `${borderHeight} solid #6f0be0`;
         }    
     }
     static get observedAttributes() {
